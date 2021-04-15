@@ -149,3 +149,55 @@ p {
   margin-right: 0;
   margin-bottom: 0;
 }
+
+.feature {
+  width: 100%;
+  color: #000000;
+}
+
+.feature-text {
+  width: 980px;
+  margin: auto;
+  text-align: center;
+}
+
+.feature-text > h1 {
+  font-size: 32px;
+  margin-top: 90px;
+}
+
+.feature-text > p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.feature-explain {
+  width: 980px;
+  margin: 30px auto 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-part {
+  flex-basis: 320px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.feature-part:nth-child(3) {
+  margin-right: 0;
+}
+
+.feature-part > h5 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.feature-part > i {
+  font-size: 60px;
+}
+
+.feature-part > p {
+  font-size: 16px;
+  margin-top: 10px;
+}
