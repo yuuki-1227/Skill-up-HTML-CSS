@@ -64,6 +64,7 @@ p {
 .main {
   width: 100%;
   margin: auto;
+  padding-bottom: 90px;
   background-color: #eceff1;
 }
 
@@ -95,11 +96,56 @@ p {
 .main-background-images {
   width: 940px;
   height: 510px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-background-image {
-  width: 300px;
+  flex-basis: 300px;
   height: 250px;
-  flex: wrap;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.main-background-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-background-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-background-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 0;
+}
+.main-background-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+}
+
+.main-background-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+}
+
+.main-background-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 0;
+  margin-bottom: 0;
 }
