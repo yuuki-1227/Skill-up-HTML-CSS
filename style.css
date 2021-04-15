@@ -60,3 +60,40 @@ p {
   font-size: 20px;
   margin-top: 10px;
 }
+
+.main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  background-color: #eceff1;
+}
+
+.main-text {
+  width: 940px;
+  padding-top: 90px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-text > h1 {
+  font-size: 32px;
+  color: #000000;
+}
+
+.underline {
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0;
+  background-color: #ec715f;
+}
+
+.main-text > p {
+  font-size: 16px;
+  color: #000000;
+  margin: 30px auto;
+}
+
+.main-background-images {
+  width: 940px;
+  height: 510px;
+}
