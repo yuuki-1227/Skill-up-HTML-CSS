@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     
     <script src="https://kit.fontawesome.com/c6191b4f04.js" crossorigin="anonymous"></script>
     <link rel ="stylesheet" href="style.css" />
@@ -10,13 +11,19 @@
   
   <header>
     <nav class ="header_item">
-      <ul>
-        <li><img src= "img/logo.png" height="50px"/></li>
-        <li>Portfolio</li>
-        <li>Feature</li>
-        <li>Profile</li>
-        <li>Contact</li>
-      </ul>
+      <div class ="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <div class="menu-content">
+          <ul>
+            <li><img src= "img/logo.png" height="50px"/></li>
+            <li>Portfolio</li>
+            <li>Feature</li>
+            <li>Profile</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
   </header>
