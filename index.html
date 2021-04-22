@@ -10,21 +10,22 @@
   </head>
   
   <header>
-    <nav class ="header_item">
-      <div class ="hamburger-menu">
-        <input type="checkbox" id="menu-btn-check">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label>
-        <div class="menu-content">
-          <ul>
-            <li><img src= "img/logo.png" height="50px"/></li>
-            <li>Portfolio</li>
-            <li>Feature</li>
-            <li>Profile</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div id="sp-menu">
+      <ul>
+            <li><a href="#"><img src= "img/logo.png" height="50px"/></a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hm-icon">
+      <a class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
 
   </header>
 
@@ -124,10 +125,12 @@
       </div>
     </div>
      
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 
   <footer>
-    <div class ="p">2017 webcamp</div>
+    <p>2017 webcamp</p>
   </footer>
 
 </html>
